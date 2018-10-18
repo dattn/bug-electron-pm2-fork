@@ -1,0 +1,16 @@
+{
+    "name": "bug-electron-pm2-fork",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "version": "ELECTRON_RUN_AS_NODE=1 ./node_modules/electron/dist/electron --version",
+        "pm2_version": "ELECTRON_RUN_AS_NODE=1 ./node_modules/electron/dist/electron ./node_modules/pm2/bin/pm2 --version"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "electron": "^2.0.11",
+        "pm2": "^3.2.2"
+    }
+}
